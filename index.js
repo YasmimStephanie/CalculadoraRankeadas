@@ -20,6 +20,6 @@ if (wins <= 10) {
 function saldo(wins, defeats) {
     return wins - defeats;
 } 
-let saldoRanked = saldo(100, 7);
+let saldoRanked = saldo(wins, defeats);
 
 console.log(`O herói tem saldo de ${saldoRanked} está no nível ${nivel}`) 
